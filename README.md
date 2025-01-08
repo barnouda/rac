@@ -1,12 +1,12 @@
-## RAC - Replacement of Accentuated and other non-English Characters in LaTeX and bibtex files
+# RAC - Replacement of Accentuated and other non-English Characters in LaTeX and bibtex files
 
-### Overview
+## Overview
 
 These scripts replace some accentuated and other non-English characters in latex and bibtex files by their corresponding codes when it is not possible to use a suitable encoding.
 
 Some journal latex templates enforce an encoding not suitable for non-English characters. In such cases, you can use codes (e.g. `\'{e}` for `é`), but it is tedius to type text using these codes. With these scripts, you may write with accents and other non-English characters in your `.tex` and `.bib` files and run the scripts on your files to replace letters with their corresponding code.
 
-### Characters implemented
+## Characters implemented
 
 The following characters are implemented. Other characters may be added as needed.
 
@@ -21,7 +21,7 @@ The following characters are implemented. Other characters may be added as neede
 |cC| | | | |ç|
 |nN| | | | |ñ|
 
-### Usage
+## Usage
 
 `sh rac_tex.sh my_latex_file.tex`
 
